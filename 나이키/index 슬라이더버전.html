@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- remixicon cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style 슬라이더.css">
+    <!-- <link rel="stylesheet" href="css/swiper.css"> -->
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/image (22).png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#world">뉴스</a>
+            <a href="#koreajj">이벤트</a>
+            <a href="#themes">하이라이트</a>
+            <a href="#premium">보상</a>
+            <a href="#area">승부의 신</a>
+            <a href="#airhotel">2023 월즈</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+            <!-- <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-earth-americas"></i> -->
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" 
+                style="background: url(images/월즈111.jpg) no-repeat;">
+                    <div class="content">
+                        <h3 data-aos="fade-right">LEAGUE OF LEGEND</h3>
+                        <P data-aos="flip-left">PLAY GAME</P>
+                        <a href="https://fujifilm-korea.co.kr/" class="btn">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" 
+                style="background: url(images/월즈444.jpg) no-repeat;">
+                    <div class="content">
+                        <h3 data-aos="fade-right">LEAGUE OF LEGEND</h3>
+                        <P data-aos="flip-left">PLAY GAME</P>
+                        <a href="https://fujifilm-korea.co.kr/" class="btn">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" 
+                style="background: url(images/월즈555.jpg) no-repeat;">
+                    <div class="content">
+                        <h3 data-aos="fade-right">LEAGUE OF LEGEND</h3>
+                        <P data-aos="flip-left">PLAY GAME</P>
+                        <a href="https://fujifilm-korea.co.kr/" class="btn">DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>   
+
+    <!-- home section start -->
+    <!-- <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-right">LEAGUE OF LEGEND</h3>
+            <P data-aos="flip-left">PLAY GAME</P>
+            <a href="https://lolesports.com/" class="btn">DOWNLOAD</a>
+        </div>
+    </section> -->
+    <!-- home section end -->
+
+    <!-- world section start -->
+    <section class="world" id="world">
+        <h1 class="heading"><span>새</span> 소식</h1>
+        <div class="row">
+            <swiper-container class="mySwiper" style="--swiper-navigation-color:#fff,--swiper-pagination-color:#fff"
+                speed="600" parallax="true" pagination="true">
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/w23-ticketsales-header.jpg" alt="slide1">
+                        <div class="content">
+                            <h3>PLAY FIRST <br>LEAGUE OF LEGEND</h3>
+                            <P>2023 월드 챔피언십 안내</P>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/w23-primer-header_img-v1.0.jpg" alt="slide2">
+                        <div class="content">
+                            <h3>PLAY SECOND <br>LEAGUE OF LEGEND</h3>
+                            <P>2023 월드 챔피언십 드롭 안내</P>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/rg-esports-johnneedham-one-shot-04-2023.png" alt="slide3">
+                        <div class="content">
+                            <h3>PLAY THIRD <br>LEAGUE OF LEGEND</h3>
+                            <P>2023 월드 챔피언십 티켓 안내</P>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+
+            </swiper-container>
+        </div>
+    </section>
+    <!-- world section end -->
+
+    <section class="koreajj" id="koreajj">
+        <h1 class="heading"><span>이벤트</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/wqs2023.jpg" alt="p1">
+                <h3>리그오브레전드<br>
+                    PC방 이벤트</h3>
+                <p>리그오브레전드<br>
+                    피시방 한정 스킨 할인!</p>
+                <div class="price"><span>2023.06.01-2023.06.30</span></div>
+                <a href="#" class="btn">MORE</a>
+            </div>
+            <div class="box">
+                <img src="images/MSI23_Champions_Queue_1600x900.jpg" alt="p1">
+                <h3>5년만에 한국에서의 롤드컵!<br>
+                    롤드컵 기념 이벤트</h3>
+                <p>롤드컵 기념 스킨<br>
+                    롤드컵 기간에만 특별 할인!</p>
+                <div class="price"><span>2023.06.01-2023.06.30</span></div>
+                <a href="#" class="btn">MORE</a>
+            </div>
+            <div class="box">
+                <img src="images/MSI23_Primer_1600x900.png" alt="p1">
+                <h3>신규 유저 환영 기념!<br>
+                    경험치 이벤트</h3>
+                <p>
+                    플레이 할 때 마다 추가 경험치가!</p>
+                <div class="price"><span>2023.06.01-2023.06.30</span></div>
+                <a href="#" class="btn">MORE</a>
+            </div>
+            <div class="box">
+                <img src="images/GODS-coverphoto.jpg" alt="p1">
+                <h3>리빙 레전드<br>
+                    데프트 이벤트</h3>
+                <p>데프트가 사용 했던 스킨이<br>
+                    무려 70% 할인이라고!?</p>
+                <div class="price"><span>2023.06.01-2023.06.30</span></div>
+                <a href="#" class="btn">MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- themes section start -->
+    <section class="themes" id="themes">
+        <h1 class="heading"><span>하이라이트</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="/images/월즈 하이라이트 2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>The Finals MVP</h3>
+                    <h4>WBG vs. T1 하이라이트<br> Finals | 11.19 | 2023 월드 챔피언십</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/월즈 하이라이트 3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>어 고트형이야.</h3>
+                    <h4>WBG vs. T1 하이라이트<br> Finals | 11.19 | 2023 월드 챔피언십</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sddefault (5).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>골든 로드, 저희가 막았습니다.</h3>
+                    <h4>T1 vs. JDG 게임 4 하이라이트<br> <span class="price">녹아웃 스테이지 4강 Day 2</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- themes section end -->
+
+    <!-- premium section start -->
+    <section class="premium" id="premium">
+        <h1 class="heading"><span>2023 월즈</span> FINAL</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/월즈444.jpg" class="pre" alt="">
+                </div>
+                <p>FAKER VS THESHY<br>
+                    이긴 자가 전설이 된다
+                </p>
+                <h3>최초의 4회 우승이냐 <br> 5년만의 2번째 우승이냐</h3>
+                <a href="#" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/월즈555.jpg" class="pre" alt="">
+                </div>
+                <p>7년만에 이뤄낸 우승<br>
+                    5번의 준우승 이후 우승
+                </p>
+                <h3>작년의 실패 이후 <br> 다시 정상에 오르기까지</h3>
+                <a href="#" class="btn">MORE</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/월즈6.jpg" class="pre" alt="">
+                </div>
+                <p>2023 WORLDS<br>
+                    FINAL MVP
+                </p>
+                <h3>T1 <br> ZEUS</h3>
+                <a href="#" class="btn">MORE</a>
+            </div>
+        </div>
+    </section>
+    <!-- premium section end -->
+
+    <!-- area section start -->
+    <section class="area" id="area">
+        <h1 class="heading"><span>2023 월즈 파이널</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content-box">
+                <div class="title">'페이커'</div>
+            </div>
+                <div class="content">
+                <div class="conbox1">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈777.jpg" alt="">
+                    </a>
+                    <p>T1 FAKER 인터뷰</p>
+                </div>
+                
+                <div class="conbox2">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈888.jpg" alt="">
+                    </a>
+                    <p>THIS IS MY TEAM <br>WBG vs. T1 게임 3 하이라이트</p>
+                </div>
+
+            </div>
+        </div>
+
+            <div class="box">
+                <div class="content-box">
+                <div class="title">2023 월즈</div>
+            </div>
+                <div class="content">
+                <div class="conbox1">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈111.jpg" alt="">
+                    </a>
+                    <p>WBG vs. T1 매치 하이라이트</p>
+                </div>
+
+                <div class="conbox2">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈999.jpg" alt="">
+                    </a>
+                    <p>2023 월즈 오프닝 세레머니<br>Finals | 11.12 | 2023 월드 챔피언십</p>
+                </div>
+
+            </div>
+        </div>
+
+            <div class="box">
+                <div class="content-box">
+                <div class="title">2023 월즈</div>
+            </div>
+                <div class="content">
+                <div class="conbox1">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈111111.jpg" alt="">
+                    </a>
+                    <p>고척돔에서 클템님 봄</p>
+                </div>
+
+                <div class="conbox2">
+                    <a href="#">
+                        <img data-aos="fade-up" src="images/월즈121212.jpg" alt="">
+                    </a>
+                    <p>티원스 플랜
+                        <br> Today's Worlds | 월드 챔피언십 2023
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- area section end -->
+
+    <!-- airhotel section start -->
+    <section class="airhotel" id="airhotel">
+        <h1 class="heading"><span>2023 월즈</span> 팬 페스트</h1>
+        <div class="box-container">
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/팬페스트11.jpg" alt="1">
+                    <div class="text">
+                        <h1>서울 광화문에 《월즈 팬 페스트》가 찾아옵니다!</h1>
+                        <p>2023 월드 챔피언십</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/팬페스트2.jpg" alt="1">
+                    <div class="text">
+                        <h1>챔피언들과의 주먹 인사!</h1>
+                        <p>광화문 팬 페스트!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- airhotel section end -->
+
+    <!-- event section start -->
+    <section class="event" id="event">
+        <h1 class="heading"><span>오리지널</span> 굿즈</h1>
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>피규어 인기 상품!</h4>
+                    <p>누누와 윌럼프</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>2023 월드 챔피언십 기념</h4>
+                    <p>2023 월즈 티모 피규어</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>2023 월드 챔피언십 기념</h4>
+                    <p>2023 월즈 야구 유니폼</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>2023 월드 챔피언십 기념</h4>
+                    <p>2023 월즈 마우스패드</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event section end -->
+
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="#" target="_blank" class="fab fa-k"></a>
+            <a href="#" target="_blank" class="fab fa-instagram"></a>
+            <a href="#" target="_blank" class="fab fa-youtube"></a>
+            <a href="#" target="_blank" class="fab fa-b"></a>
+        </div>
+        <div class="links">
+            <a href="#" target="_blank">회사소개</a>
+            <a href="#" target="_blank">이용약관</a>
+            <a href="#" target="_blank">개인정보처리방침</a>
+            <a href="#" target="_blank">사이트맵</a>
+            <a href="#" target="_blank">사업자정보확인</a>
+            <a href="#" target="_blank">에스크로 가입확인</a>
+            <a href="#" target="_blank">고객센터</a>
+        </div>
+
+        <div class="fin">
+            <p>라이엇게임즈코리아 유한회사 서울특별시 강남구 테헤란로 521 30층 (삼성동, 파르나스타워) <br>
+            대표자 : 조혁진 | 대표전화 : 02-3454-1560 | FAX : 02-3454-1565 사업자등록번호 : 120-87-68488 <br>
+        통신판매업신고 : 2011 - 서울강남 - 02718</p>
+        </div>
+
+        <div class="credit">
+            created by <span>LWS</span> | all rights reserved
+            <br>이 홈페이지는 개인의 포트폴리오로 제작되었습니다.
+        </div>
+
+    </section>
+    <!-- footer section end -->
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script src="js/swiper.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script 슬라이더.js"></script>
+</body>
+
+</html>

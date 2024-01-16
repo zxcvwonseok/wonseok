@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이원석 포트폴리오</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/moon1.png" type="image/x-icon">
+    <link rel="icon" href="images/moon1.png" type="image/x-icon">
+    <!-- fullpage -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="fullpage/jquery.fullPage.css">
+    <script src="fullpage/jquery.fullPage.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/design - 복사본.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/responsive - 복사본.css">
+</head>
+<body>
+    <div id="load"><img src="images/logo.svg" alt="loading"></div> <!-- 로딩이미지 -->
+    <div id="cursor" class="intro_ani"></div> <!-- 마우스커서 -->
+    <div class="section_bg bg1"></div> <!-- 섹션 배경 고정 -->
+    <div class="section_bg bg2"></div> <!-- 섹션 배경 고정 -->
+    <div class="layer_btm_gradient"></div>
+    <header class="intro_ani">
+        <h1><a href="#firstPage">2023 LWS PORTFOLIO</a></h1>
+        <ul id="myMenu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">INTRO</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">ABOUT</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">PORTFOLIO<span class="mobile_skip"> VIDEO</span></a>
+                <ul class="sub">
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">TYPO GRAPHY</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#fourthPage">SLIDE SHOW</a></li>
+                    <li data-menuanchor="fifthPage"><a href="#fifthPage">ADVERTISING VIDEO</a></li>
+                    <li data-menuanchor="sixthPage"><a href="#sixthPage">A SHORT FILM</a></li>
+                </ul>
+            </li>
+            <li data-menuanchor="seventhPage"><a href="#seventhPage">WEB<span class="mobile_skip"> DESIGN</span></a></li>
+            <li data-menuanchor="eighthPage"><a href="#eighthPage">GRAPHIC<span class="mobile_skip"> DESIGN</span></a></li>
+        </ul>
+    </header>
+    <div id="fullpage">
+        <div id="intro" class="section">
+            <div class="layer layer1 intro_ani"><!-- 1.구름 -->
+                <div class="bird intro_ani"></div> <!-- 새가 산 가로질러 떠다니는 애니메이션 -->
+            </div>
+            <div class="layer title"><!-- 소개문구 -->
+                <div class="title_container">
+                    <h1>
+                        <span class="intro_ani"><strong>언제나</strong> 긍정적으로 <strong>생각</strong>하는</span>
+                        <span class="line intro_ani"></span>
+                        <span class="intro_ani">영상 디자이너 <strong>이원석</strong>입니다.</span>
+                    </h1>
+                    <h1 class="intro_ani">Positive Mind</h1>
+                </div>
+            </div>
+            <div class="layer layer2 intro_ani"></div><!-- 2.산 -->
+            <div class="layer layer3 intro_ani"></div><!-- 3.들판 -->
+            <div class="layer layer4 intro_ani"></div><!-- 4.들판 -->
+
+            <div class="scrolldown intro_ani">
+                <p class="mouse_outline"></p>
+                <p class="mouse_wheel"></p>
+            </div>
+        </div>
+        <div id="about" class="section">
+            <div class="contents_wrap">
+                <div class="photo"></div>
+                <div class="info_all">
+                    <div class="info profile">
+                        <h2>PROFILE</h2>
+                        <ul>
+                            <li>
+                                <p>Name</p>
+                                <p>이원석</p>
+                            </li>
+                            <li>
+                                <p>Birth</p>
+                                <p>1998.11.21</p>
+                            </li>
+                            <li>
+                                <p>Phone</p>
+                                <p>010-9594-1559</p>
+                            </li>
+                            <li>
+                                <p>Mail</p>
+                                <p class="mail">zxcvbnm1559@naver.com</p>
+                            </li>
+                        </ul>
+                    </div><!-- e:info -->
+                    <div class="info">
+                        <h2>EDUCATION</h2>
+                        <ul>
+                            <li>
+                                <p>2024</p>
+                                <p>센텀직업전문학교<br>멀티미디어 광고영상콘텐츠 과정 수료</p>
+                            </li>
+                            <li>
+                                <p>2019</p>
+                                <p>경남정보대학교 방송영상학과 졸업</p>
+                            </li>
+                            <li>
+                                <p>2017</p>
+                                <p>부산전자공업고등학교 기계자동차과 졸업</p>
+                            </li>
+                        </ul>
+                    </div><!-- e:info -->
+                    <div class="info">
+                        <h2>CERTIFICATE</h2>
+                        <ul>
+                            <li>
+                                <p>2019</p>
+                                <p>운전면허 2종</p>
+                            <!-- </li>
+                            <li>
+                                <p>2018</p>
+                                <p>실내건축기사</p>
+                            </li>
+                            <li>
+                                <p>2018</p>
+                                <p>컴퓨터활용능력 2급</p>
+                            </li>
+                            <li>
+                                <p>2018</p>
+                                <p>GTQ 1급</p>
+                            </li> -->
+                        </ul>
+                    </div><!-- e:info -->
+                    <div class="info skills">
+                        <h2>SKILLS</h2>
+                        <ul>
+                            <li>
+                                <p>After Effects</p>
+                                <p class="level">
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="empty"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Premere Pro</p>
+                                <p class="level">
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="empty"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Photoshop</p>
+                                <p class="level">
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="empty"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>Illustrator</p>
+                                <p class="level">
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="empty"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>HTML CSS</p>
+                                <p class="level">
+                                    <span class="fill"></span>
+                                    <span class="fill"></span>
+                                    <span class="empty"></span>
+                                    <span class="empty"></span>
+                                    <span class="empty"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- e:info -->
+                </div><!-- e:info_all -->
+            </div><!-- e:contents_wrap -->
+        </div><!-- e:about -->
+        <div id="seoulmilk" class="section web_section">
+            <div class="contents">
+                <div class="mockup_all">
+                    <div class="mockup desktop">
+                        <p class="screenshot">
+                            <img src="images/web_seoulmilk_desktop.jpg" alt="타이포그래피 - 시차">
+                        </p>
+                        <p class="frame"></p>
+                    </div>
+                    <!-- <div class="mockup mobile">
+                        <p class="screenshot">
+                            <img src="images/web_seoulmilk_mobile.jpg" alt="서울우유 모바일 스크린샷">
+                        </p>
+                        <p class="frame"></p>
+                    </div> -->
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h1>TYPO GRAPHY</h1>
+                        <p class="description">래퍼 우원재의 랩 시차의 가사를 활용한 타이포그래피</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>TYPE</span>
+                            <span>Typo graphy</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>After Effects, Photoshop, Illustrator</span>
+                        </li>
+                        <li>
+                            <span>작업 시간</span>
+                            <span>10일</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>100% (개인 작업)</span>
+                        </li>
+                    </ul>
+                    <div class="link">
+                        <a href="#!" class="modal_btn">Youtube</a>
+                        <!-- <a href="https://www.figma.com/file/57Hxjsggl7YPrFAFedDgvG/portfolio-seoul-milk-prototype?node-id=0%3A1" target="_blank">Youtube</a> -->
+                        <!-- <a href="project/web_app/seoul_milk_responsive/index.html" target="_blank">Website</a> -->
+                    </div>
+                </div><!-- e:info -->
+                <div class="modal_popup_bg styleguide">
+                    <div class="container">
+                        <div class="title_btn_container">
+                            <p class="title"><span>영상 </span><span>타이포그래피</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <!-- <iframe src="project/web_app/seoul_milk_responsive/styleguide.html"></iframe> -->
+                            <iframe src="https://www.youtube.com/embed/lD48cM0zYN8?si=9fANgL28nc13L0TZ"></iframe>
+                        </div>
+                    </div>
+                </div> <!-- e:modal_popup_bg -->
+            </div><!-- e:contents -->
+            <div class="bg_circle"></div>
+        </div><!-- e:seoulmilk-->
+        <div id="mac" class="section web_section">
+            <div class="contents">
+                <div class="mockup_all">
+                    <div class="mockup desktop">
+                        <p class="screenshot">
+                            <img src="images/web_mac_desktop.jpg" alt="슬라이드 쇼 - 스파이더맨">
+                        </p>
+                        <p class="frame"></p>
+                    </div>
+                    <!-- <div class="mockup mobile">
+                        <p class="screenshot">
+                            <img src="images/web_mac_mobile.jpg" alt="맥 데스크탑 스크린샷">
+                        </p>
+                        <p class="frame"></p>
+                    </div> -->
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h1>SLIDE SHOW</h1>
+                        <p class="description">스파이더맨 뉴 유니버스의 장면을 활용</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>TYPE</span>
+                            <span>Slide show</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>After Effects,Premere Pro</span>
+                        </li>
+                        <li>
+                            <span>작업기간</span>
+                            <span>일주일</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>100% (개인 작업)</span>
+                        </li>
+                    </ul>
+                    <div class="link">
+                        <a href="#!" class="modal_btn">Youtube</a>
+                        <!-- <a href="https://www.figma.com/file/ap6inq2sxPKc2f1fLzl1qy/portfolio-mac-cosmetics-prototype?node-id=0%3A1" target="_blank">Youtube</a> -->
+                        <!-- <a href="project/web_app/mac_cosmetics_responsive/index.html" target="_blank">Website</a> -->
+                    </div>
+                </div><!-- e:info -->
+                <div class="modal_popup_bg styleguide">
+                    <div class="container">
+                        <div class="title_btn_container">
+                            <p class="title"><span>영상 </span><span>슬라이드 쇼</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <!-- <iframe src="project/web_app/mac_cosmetics_responsive/styleguide.html"></iframe> -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2xr6kd8kMt8?si=aog-TfbbKHTgJ1pG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div> <!-- e:modal_popup_bg -->
+            </div><!-- e:contents -->
+            <div class="bg_circle"></div>
+        </div><!-- e:mac -->
+        <div id="samapharm" class="section web_section">
+            <div class="contents">
+                <div class="mockup_all desktop_only">
+                    <div class="mockup desktop">
+                        <p class="screenshot">
+                            <img src="images/web_samapharm.jpg" alt="홍보 영상 - 바이레도">
+                        </p>
+                        <p class="frame"></p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h1>PRODUCT ADVERTISING VIDEO</h1>
+                        <p class="description">향수 전문 브랜드 바이레도의 홍보 영상</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>TYPE</span>
+                            <span>Product Advertising</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>After Effects, Premere Pro, Photoshop</span>
+                        </li>
+                        <li>
+                            <span>작업기간</span>
+                            <span>4일</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>100% (개인 작업)</span>
+                        </li>
+                    </ul>
+                    <div class="link">
+                        <a href="#!" class="modal_btn">Youtube</a>
+                        <!-- <a href="https://www.figma.com/file/BuUwZf1CWg0XZY85cLAvJS/portfolio-samapharm-prototype?node-id=0%3A1" target="blank">Youtube</a> -->
+                        <!-- <a href="project/web_app/samapharm/index.html" target="_blank">Website</a> -->
+                    </div>
+                </div><!-- e:info -->
+                <div class="modal_popup_bg styleguide">
+                    <div class="container">
+                        <div class="title_btn_container">
+                            <p class="title"><span>영상 </span><span>홍보 비디오</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <iframe src="https://www.youtube.com/embed/p9GTxdbG78c?si=JDKTnMEegOdBnQbe"></iframe>
+                        </div>
+                    </div>
+                </div> <!-- e:modal_popup_bg -->
+            </div><!-- e:contents -->
+            <div class="bg_circle"></div>
+        </div><!-- e:samapharm -->
+        <div id="watchapedia" class="section web_section">
+            <div class="contents">
+                <div class="mockup_all">
+                    <div class="mockup desktop">
+                        <p class="screenshot">
+                            <img src="images/web_watchapedia_dekstop.jpg" alt="단편 영화 - 쌍둥이">
+                        </p>
+                        <p class="frame"></p>
+                    </div>
+                    <!-- <div class="mockup mobile">
+                        <p class="screenshot">
+                            <img src="images/web_watchapedia_mobile.jpg" alt="왓챠피디아 모바일 스크린샷">
+                        </p>
+                        <p class="frame"></p>
+                    </div> -->
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h1>A SHORT FILM</h1>
+                        <p class="description">비슷한 듯 하지만 너무 다른 현실에 닥친 두 청년</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>TYPE</span>
+                            <span>Short Film</span>
+                        </li>
+                        <li>
+                            <span>TOOL</span>
+                            <span>After Effects, Premere Pro</span>
+                        </li>
+                        <li>
+                            <span>작업기간</span>
+                            <span>4일</span>
+                        </li>
+                        <li>
+                            <span>참여도</span>
+                            <span>100% (개인 작업)</span>
+                        </li>
+                    </ul>
+                    <div class="link">
+                        <a href="#!" class="modal_btn">Youtube</a>
+                        <!-- <a href="https://www.figma.com/file/RKUQ7jXMbER2gPCUv1Tqm4/portfolio-watchapedia-prototype?node-id=0%3A1" target="blank">Youtube</a> -->
+                        <!-- <a href="project/web_app/watchapedia_responsive/index.html" target="_blank">Website</a> -->
+                    </div>
+                </div><!-- e:info -->
+                <div class="modal_popup_bg styleguide">
+                    <div class="container">
+                        <div class="title_btn_container">
+                            <p class="title"><span>영상 </span><span>단편 영화</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <iframe src="https://www.youtube.com/embed/QTyElOHvr0w?si=JpZM0IgAolFkhroa"></iframe>
+                        </div>
+                    </div>
+                </div> <!-- e:modal_popup_bg -->
+            </div><!-- e:contents -->
+            <div class="bg_circle"></div>
+        </div><!-- e:watchapedia -->
+        <div id="clone" class="section clone_graphic_section">
+            <div class="contents">
+                <h1>WEB DESIGN</h1>
+                <div class="grid-container">
+                    <div class="grid-item item1">
+                        <div class="info">
+                            <div class="txt">
+                                <h2>LEAGUE OF LEGEND</h2>
+                                <p>Main page</p>
+                            </div>
+                            <div class="link">
+                                <a href="https://www.figma.com/file/SXhpzemd1mq2EyxyIVEBF5/%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0?type=design&node-id=0-1&mode=design&t=0u1fODK8BYio7X8b-0" target="blank">Figma</a>
+                                <a href="/나이키/index.html" target="_blank">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item item2">
+                        <div class="info">
+                            <div class="txt">
+                                <h2>EA SPORTS FC ONLINE</h2>
+                                <p>Main page</p>
+                            </div>
+                            <div class="link">
+                                <a href="https://www.figma.com/file/U4WBI440qhswZFjJ7ISyWM/EA-SPORTS-FC-ONLINE?type=design&node-id=0-1&mode=design&t=4PM1yenZ8mhLLDTj-0" target="blank">Figma</a>
+                                <a href="/코엑스/2view-source_https___www.coex.co.kr.html" target="_blank">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="grid-item item3">
+                        <div class="info">
+                            <div class="txt">
+                                <h2>Coupang</h2>
+                                <p>Login Page</p>
+                            </div>
+                            <div class="link">
+                                <a href="project/clone_coding/coupang/login.html" target="_blank">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item item4">
+                        <div class="info">
+                            <div class="txt">
+                                <h2>Interior Shop</h2>
+                                <p>Shop Order Page</p>
+                            </div>
+                            <div class="link">
+                                <a href="project/clone_coding/shop_order/index.html" target="_blank">Website</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div id="graphic" class="section clone_graphic_section">
+            <div class="contents">
+                <h1>GRAPHIC DESIGN</h1>
+                <div class="grid-container"> <!-- 클릭 이벤트 : fullpage 속성 autoScrolling:false, -->
+                    <a href="#!" class="grid-item item1 modal_btn" title="SNS 광고디자인 - 공연"></a>
+                    <a href="#!" class="grid-item item2 modal_btn" title="SNS 광고디자인 - 패션" ></a>
+                    <a href="#!" class="grid-item item3 modal_btn" title="박스 디자인 - 로고"></a>
+                    <a href="#!" class="grid-item item4 modal_btn" title="리플렛 디자인 - 축제" ></a>
+                </div>
+                <div class="modal_popup_bg"> <!-- 모달 팝업창 script-->
+                    <div class="container container1">
+                        <div class="title_btn_container">
+                            <p class="title"><span>SNS 광고디자인 </span><span> / 공연 / 힙합 페스티벌</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <img src="/images/graphic04.jpg" alt="SNS 광고디자인 - 화장품">
+                        </div>
+                    </div><!-- e:container -->
+                </div><!-- e:modal_popup_bg -->    
+                <div class="modal_popup_bg"> 
+                    <div class="container container2">
+                        <div class="title_btn_container">
+                            <p class="title"><span>SNS 광고디자인</span><span> / 패션 / 디스이즈네버댓 뉴발란스</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <img src="/images/graphic03.jpg" alt="SNS 광고디자인 - 패션">
+                        </div>
+                    </div><!-- e:container -->
+                </div><!-- e:modal_popup_bg -->   
+                <div class="modal_popup_bg"> 
+                    <div class="container container3">
+                        <div class="title_btn_container">
+                            <p class="title"><span>상세페이지 디자인</span><span> / 로고 / 로고 , 명함 디자인</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <img src="/images/graphic02.jpg" alt="박스 디자인 - 로고">
+                        </div>
+                    </div><!-- e:container -->
+                </div><!-- e:modal_popup_bg -->   
+                <div class="modal_popup_bg"> 
+                    <div class="container container4">
+                        <div class="title_btn_container">
+                            <p class="title"><span>상세페이지 디자인</span><span> / 리플렛 / 광안리 불꽃축제</span></p>
+                            <a href="#!" class="close_btn"><img src="images/icon_close.svg" alt="닫기"></a>
+                        </div>
+                        <div class="img_container">
+                            <img src="/images/graphic0111.jpg" alt="리플렛 디자인 - 축제">
+                        </div>
+                    </div><!-- e:container -->
+                </div><!-- e:modal_popup_bg -->
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
